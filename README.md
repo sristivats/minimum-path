@@ -1,15 +1,19 @@
 
-# Minimal-Cost-Path-Finder
+# Minimal-Path-Finder
 
 A web application that finds the most efficient path between two points using Dijkstra's algorithm. Designed with a clean React frontend and a Flask backend
 
 ## Features
 
--  Input source and destination nodes
--  Displays shortest path and total distance
--  Built using Dijkstra’s algorithm
--  Visual twin maps (satellite and outline)
--  Fully deployed frontend and backend
+-  Enter source and destination nodes
+
+-  Calculates and displays the shortest path and total cost
+
+-  Built on Dijkstra’s shortest path algorithm
+
+-  Dual map views: satellite and outline modes
+
+-  Fully deployed, with both frontend and backend integrated
 
 ## API Reference
 
@@ -35,7 +39,7 @@ A web application that finds the most efficient path between two points using Di
 
 ## Rendered Website
 
- 
+ https://minimum-path.vercel.app
 
 
 ## Used By

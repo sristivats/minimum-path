@@ -11,7 +11,7 @@ const App = () => {
     const a = e.target[0].value
     const b = e.target[1].value
     try {
-      const response = await fetch(`https://minimum-path.onrender.com/shortd/${a}/${b}`);
+      const response = await fetch(`https://minimum-path-1.onrender.com/shortd/${a}/${b}`);
       const jsonData = await response.json();
       setData(jsonData);
     } catch (error) {
